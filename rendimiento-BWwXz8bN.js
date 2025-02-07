@@ -1,0 +1,1 @@
+import{C as a}from"./auto-Aq1nblnl.js";(function(){new a(document.getElementById("myChart"),{type:"bar",data:{labels:data.map(t=>`${t.codper.toString().substr(0,4)}-${t.codper.toString().substr(4,1)}`),datasets:[{label:"Promedio",data:data.map(t=>t.prom),backgroundColor:"#711610",borderColor:"transparent",maxBarThickness:50,borderRadius:{topRight:5,topLeft:5}}]}})})();
